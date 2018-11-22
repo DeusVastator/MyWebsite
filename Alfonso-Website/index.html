@@ -32,7 +32,7 @@
       
                 </ul>
             </li>
-            <li><a href="#">Web Dev</a>
+            <li><a href="webdev.html">Web Dev</a>
    
             </li>
   
@@ -43,8 +43,24 @@
     
             
         
-        <div class="">
-            <p id="me" class="white">Denis Alfonso</p>
+        
+    <div class="game">
+        <section id="winner">
+            <h1 class="title">YOU WIN, CONGRATULATIONS!</h1>
+        </section>
+        <section id="gameOver">
+		  <h1 class="title">Game Over Noob!</h1>
+	   </section>
+        <h2 class="title">
+            <p>Destroy all the bricks to win the game!</p>
+        </h2>
+        <button id="restart" onclick="reload()">Restart</button>
+        <canvas id="brick" width="650" height="450"></canvas>
+
+        
+    </div>
+        
+        
             <p class="white"> I am currently majoring in Web Development</p>
             <p class="image" class="image" class="white">MOVIE POSTERS</p>
             <p class="white"> I have made a few projects while in college</p>
@@ -52,7 +68,7 @@
             <p class="white" >Some more silly than others</p>
             <p class="image" id="gifs">GIFS</p>
     
-    </div>
+   
         
         
         
@@ -70,7 +86,11 @@
     
     </div>
     
+    
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script src="js/brick.js"></script>
        <script src="js/main.js"></script>
 </body>
     

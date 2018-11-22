@@ -1,44 +1,16 @@
-/*(function(){
-    
-    
-    var parallax = document.querySelectorAll(".white", ".image", ".image2"), speed = 0.5;
-    
-    window.onscroll = function(){
-        
-        [].slice.call(parallax).forEach(function(el,i)){
-                                        
-            var windowYOffset = window.pageYOffset, elBackgroundPos = "50% " + (windowYOffset * speed) + "px";
-        
-        el.style.backgroundPosition = elBackgroundPos;
-    });
-                                        }
-    };
-})(); */
+window.onscroll = function() {scrollFunction()};
 
-//(function(){
-//
-//  var parallax = document.querySelectorAll(".white", ".image", ".image2"),
-//      speed = 0.2;
-//
-//  window.onscroll = function(){
-//    [].slice.call(parallax).forEach(function(el,i){
-//
-//      var windowYOffset = window.pageYOffset,
-//          elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
-//
-//      el.style.backgroundPosition = elBackgrounPos;
-//
-//    });
-//  };
-//
-//})();
-
-
-$(window).scroll(function(e){
-  parallax();
-});
-
-function parallax(){
-  var scrolled = $(window).scrollTop();
-  $('.white', '.image', '.image2').css('top',-(scrolled*0.15)+'px');
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("primary_nav_wrap").style.height = "100px";
+    document.getElementById("mylogo").style.width = "75px";
+      
+    document.querySelector("#primary_nav_wrap ul li").style.marginTop = "40px";
+    document.querySelector("#nav a").style.fontSize = "15px";
+  } else {
+    document.getElementById("primary_nav_wrap").style.height = "150px";
+    document.getElementById("mylogo").style.width = "125px";
+    document.querySelector("#primary_nav_wrap ul li").style.marginTop = "80px";
+    document.querySelector("#nav a").style.fontSize = "20px";
+  }
 }
