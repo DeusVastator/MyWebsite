@@ -114,13 +114,15 @@ a {
     transition: 0.35s all ease;
 }
 
-#primary_nav_wrap ul
+#primary_nav_wrap ul /* this changes margin for whole nav */
 {
 	list-style:none;
 	position:relative;
 	float:right;
 	margin:0;
 	padding:0;
+    margin-top: 37px;
+    transition: 0.35s all ease;
 }
 
 #primary_nav_wrap ul a
