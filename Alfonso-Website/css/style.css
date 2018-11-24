@@ -47,6 +47,18 @@ table {
 	border-spacing: 0;
 }
 
+/* font styling */
+
+@import url('https://fonts.googleapis.com/css?family=Exo:400,400i,700,700i|Karla');
+
+h1, h2, a {
+    font-family: 'Exo', sans-serif;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+}
+
 
 /* navigation styling */
 
@@ -95,7 +107,6 @@ footer {
 a {
     text-decoration: none;
     color:#85CB33;
-    font-family: "Arial Black", Gadget, sans-serif;
     border: 1px;
 }
 
@@ -112,6 +123,7 @@ a {
     top: 0;
     width: 100%;
     transition: 0.35s all ease;
+    
 }
 
 #primary_nav_wrap ul /* this changes margin for whole nav */
@@ -209,7 +221,7 @@ a {
 /* home page */
 
 body {
-    background-color: 272D2D;
+    background-color: white;
 }
 
 .image {
@@ -296,96 +308,111 @@ body {
 
 /* photo section */
 
-#poster {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    float:left;
-    padding-right: 10px;
-}
-
-#mult {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    
-   
-}
-
-#card1 {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    float:left;
-    margin-right: 10px;
-}
-
-#card2 {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    float:left;
-    margin-right: 10px;
-    
-}
-
-#flyer {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    float:left;
-    margin-right: 10px;
-}
-
 h1 {
     margin-top: 220px;
     text-align: center;
-    font-family: "Arial Black", Gadget, sans-serif;
     text-decoration: underline;
+    font-size: 40px;
 }
 
 
 
+#poster {
+    float:left;
+    margin-top: 50px;
+    margin-left: 300px;
+    
+}
 
 #poster_info {
     text-align: left;
     font-size: 20px;
-    color: white;
-    margin-left: 400px;
-    margin-right: 400px;
-    border: solid 2px black;
+    color: black;
+    width: 400px;
+    border: solid 2px #272D2D;
     float:right;
     padding-left: 10px;
     text-indent: 40px;
-    background-color: black;
+    border-radius: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-right: 300px;
+    margin-top: 100px;
+    height:350px;
+    padding-right: 10px;
+    margin-bottom: 80px;
     
+}
+
+#mult {
+    float:left;
+    margin-top: 180px;
+    margin-left: 150px;
+   
 }
 
 #mult_info {
     text-align: left;
     font-size: 20px;
-    color: white;
-    margin-left: 400px;
-    margin-right: 400px;
-    border: solid 2px black;
+    color: black;
+    width: 400px;
+    border: solid 2px #272D2D;
     float:right;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     text-indent: 40px;
-    margin-top: 50px;
-    background-color: black;
+    margin-top: 300px;
+    margin-right: 300px;
+    border-radius: 5%;
+    padding-bottom: 10px;
+    margin-bottom: 180px
+    
+}
+
+#card1 {
+    margin-top: 180px;
+    float:left;
+    margin-left: 100px;
+    margin-bottom: 180px;
+    
+}
+
+#card2 {
+    
+    margin-top: 180px;
+    float:left;
+    margin-left: 10px;
+    margin-bottom: 180px;
+    
 }
 
 #card_info {
     text-align: left;
     font-size: 20px;
-    color: white;
-    margin-left: 400px;
-    margin-right: 350px;
+    border: solid 2px #272D2D;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 40px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 400px;
+    margin-right: 300px;
+    border-radius: 5%;
+}
+
+#flyer {
+    float:left;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+#flyer_info {
+    text-align: left;
+    font-size: 20px;
     border: solid 2px black;
     float: right;
     padding-left: 10px;
@@ -393,28 +420,13 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px;
     text-indent: 40px;
-    margin-top: 50px;
     margin-bottom: 50px;
-    background-color: black;
+    margin-top: 100px;
+    width: 400px;
+    margin-right: 300px;
+    border-radius: 5%;
 }
 
-
-#flyer_info {
-  text-align: left;
-    font-size: 20px;
-    color: white;
-    margin-left: 400px;
-    margin-right: 400px;
-    border: solid 2px black;
-    float: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-indent: 40px;
-    margin-bottom: 50px;
-    background-color: black;
-}
 
 /* video section */
 
