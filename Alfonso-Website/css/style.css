@@ -147,6 +147,7 @@ a {
 	padding:0 15px;
     font-size: 20px;
 	display: block;
+    transition: 0.35s all ease;
 }
 
 #primary_nav_wrap ul li
@@ -431,7 +432,8 @@ h1 {
 /* video section */
 
 #phobia {
-    
+    display: block;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
     
@@ -439,27 +441,27 @@ h1 {
 }
 
 #phobia_info {
-  text-align: left;
+    text-align: left;
     font-size: 20px;
-    color: white;
-    margin-left: 400px;
-    margin-right: 400px;
-    border: solid 2px black;
-    float: left;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #272D2D;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-indent: 40px;
     margin-bottom: 50px;
-    background-color: black;
-    margin-top: 150px;
+    margin-top: 50px;
+    width: 700px;
+    margin-bottom: 150px;
     
 }
 
 
 #book {
-    
+    display: block;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
     
@@ -469,23 +471,24 @@ h1 {
 #book_info {
     text-align: left;
     font-size: 20px;
-    color: white;
-    margin-left: 400px;
-    margin-right: 400px;
-    border: solid 2px black;
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #272D2D;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-indent: 40px;
     margin-bottom: 50px;
-    background-color: black;
-    margin-top:
+    margin-top: 50px;
+    width: 700px;
+    margin-bottom: 150px;
 }
 
 #ashbringer {
   
+    display: block;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
     
@@ -494,22 +497,24 @@ h1 {
 #ashbringer_info {
     text-align: left;
     font-size: 20px;
-    color: white;
-    margin-left: 400px;
-    margin-right: 400px;
-    border: solid 2px black;
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #272D2D;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-indent: 40px;
     margin-bottom: 50px;
-    background-color: black;
+    margin-top: 50px;
+    width: 700px;
+    margin-bottom: 150px;
 }
 
 #spato {
    
+    display: block;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto; 
 }
@@ -517,18 +522,18 @@ h1 {
 #spato_info {
     text-align: left;
     font-size: 20px;
-    color: white;
-    margin-left: 400px;
-    margin-right: 400px;
-    border: solid 2px black;
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #272D2D;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-indent: 40px;
     margin-bottom: 50px;
-    background-color: black;
+    margin-top: 50px;
+    width: 700px;
+    margin-bottom: 50px;
 }
 
 /* resources section */
