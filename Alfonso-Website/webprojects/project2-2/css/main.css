@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Hind+Siliguri');
+
+p {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.4em;
+}
+
+h1, h2 , a {
+    font-family: 'Acme', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #3D3D3D;
+    font-size: 36px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main width */
+.container {
+    width: 1280px;
+    padding: 0;
+    margin: auto;
+}
+
+.row {
+    margin: 0;
+}
+
+
+
+/*logo and banner */
+
+.hero-banner {
+    background-image: url(../images/home-banner.png);
+    width: 100%;
+    min-height: 420px;
+    height: auto;
+    display: flex;
+    background-size: cover;
+}
+
+/* Navigation */
+.nav {
+    background: rgb(0, 0, 0, 0.8);
+    text-align: center;
+    align-self: flex-end;
+    width: 100%;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 80px 0 90px;
+    width: 100%;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2D5DC9;
+}
+
+/* Home body */
+
+.gap {
+    width: 100%;
+    margin: 2.5em;
+}
+
+.clear {
+    clear: both;
+}
+
+.info {
+    margin: 40px;
+    width: 100%;
+}
+
+.bully {
+    width: 100%;
+    height: 100%;
+}
+
+.bully-image {
+    float: left;
+    width:100%;
+}
+
+
+
+span {
+    color: #2D5DC9;
+}
+
+
+.help-image {
+    width:100%;
+    float: left;
+}
+
+.help-text {
+    width: 45%;
+    float: right;
+    margin-top: 40px;
+    font-size: 24px;
+    margin-right: 80px;
+}
+
+.help-text h1 {
+    color: #3D3D3D;
+    text-align: center;
+    font-size 36px;
+}
+
+.antibullying {
+    background: url("../images/happy%20kids.jpg") no-repeat;
+    background-size: contain;
+    float: left;
+    text-align: center;
+    max-width: 75%;
+    margin: auto;
+}
+
+
+.antibullying h1 {
+    color: #2D5DC9;
+    font-size: 36px;
+}
+
+.antibullying p {
+    color: white;
+    text-align: left;
+    font-size: 24px;
+}
+
+.anti-text {
+    background: rgb(0, 0, 0, 0.85);
+    padding: 2em;
+    width: 70%;
+    margin: 6em auto;
+    
+}
+
+.anti-text-responsive {
+    display: none;
+}
+
+.mission {
+    background: url("../images/mission.png") no-repeat;
+    width: 100%;
+    margin: auto;
+}
+
+.mission-text {
+    width: 65%;
+    background: rgb(0, 0, 0, 0.85);
+    padding: 20px;
+    margin: 3em;
+}
+
+.mission-text h1 {
+    color:#2D5DC9;
+    font-size: 36px;
+    text-align: center;
+}
+
+.mission-text p {
+    color: white;
+    font-size: 24px;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background: #3D3D3D;
+    float:left;
+}
+
+.footer-nav ul li{
+    list-style: none;
+    display: inline;
+    padding:0 80px 0 90px;
+    width: 100%;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: #2D5DC9;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+    width: 70%;
+    margin: auto;
+}
+
+.facebook {
+    display: block;
+    width: 50px;
+    float: right;
+    height: 50px;
+    margin-top: 40px;
+}
+
+/* About Us page */
+
+.about {
+    width: 90%;
+    margin: auto;
+}
+
+.about-text {
+    width: 600px;
+    float: left;
+    font-size: 18px;
+    text-indent: 50px;
+    margin-bottom: 20px;
+}
+
+.about-text h1 {
+    color: #2D5DC9;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.about-img {
+    float: right;
+    margin-top: 30px;
+}
+
+.about-img h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* donations section */
+
+.don-title {
+    color: #2D5DC9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.don-text {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.donor-info {
+    text-align: center;
+    float: left;
+    margin-left: 150px;
+}
+
+.donor-align {
+    margin-left: 100px;
+    display: block;
+    text-align: right;
+}
+
+}
+
+.donor-amount {
+    width: 200px;
+    float: right;
+    text-align: center;
+}
+
+.donor-align2 {
+    display: block;
+    width: 600px;
+    text-align: left;
+    margin-left: 800px;
+    padding-top: 2px;
+}
+
+.submit {
+    
+    margin: auto;
+    margin-top: 60px;
+    background-color: #2D5DC9;
+    border-radius: 10px;
+    width: 150px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.found-link {
+    text-align: center;
+}
+
+.found-link a {
+    text-decoration: none;
+    color: #2D5DC9;
+}
+
+/* Projects page section */
+
+.proj-title {
+    color: #2D5DC9;
+    margin-top: 20px;
+}
+
+.calm {
+    width: 500px;
+    padding-left: 50px;
+    float: left;
+    padding-top: 60px;
+    height: 450px;
+    
+}
+
+.calm-text {
+    float:right;
+    width: 600px;
+    padding-top: 60px;
+    height: 450px;
+}
+
+.calm-text h1 {
+    color: #000;
+}
+
+.blog-image {
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.blog-link {
+    width: 500px;
+    float: right;
+    margin-top: 50px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.blog-link h1 {
+    color: #000;
+}
+
+/* foundation member page section */
+
+.found-title {
+    color: #2D5DC9;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.mini-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.found-text {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.list1 {
+    float: left;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.list2 {
+    float: right;
+    width: 300px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.found-button {
+    display: block;
+    margin: auto;
+    float: none;
+    margin-top: 1600px;
+    text-align: center;
+    background-color: #2D5DC9;
+    width: 300px;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.found-button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Custom Media Queries */
+
+@media (max-width: 1300px) {
+    .container {
+        width: 90%;
+    }
+    
+    .about-img {
+        width: 300px;
+    }
+    
+    footer {
+        width: 100%;
+    }
+    .footer-nav {
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    
+    .mission {
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .mission-text p {
+        font-size: 1em;
+    }
+    
+    .mission-text {
+        width:50%;
+        margin: auto;
+    }
+    
+    .about-img {
+        width: 260px;
+    }
+    
+    .about-img h2 {
+        font-size: 20px;
+    }
+    
+    .about-text {
+        width: 550px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:990px) {
+    p {
+        font-size: 1em;
+    }
+    
+    .antibullying {
+    display: none;
+    }
+    
+    .anti-text {
+        display: none;
+    }
+    
+    .anti-text-responsive {
+    display: block;
+    }
+    
+    .mission-text {
+        width:70%;
+        margin: auto;
+    }
+    
+    .about {
+        float: none;
+        text-align: center;
+    }
+    
+    .about-img {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .about-text {
+        font-size: 12px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 578px) {
+    .container {
+        width: 100%;
+    }
+    
+    .about-text {
+        width: 400px;
+    }
+    
+    .about {
+        margin: auto;
+    }
+    
+
+}
