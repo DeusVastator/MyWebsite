@@ -92,7 +92,7 @@ if(y + dy < ballRadius) {
             if(!lives) {
                gameOverMenu.style.visibility = "visible";
                 setTimeout(function () {
-                location.reload(true); }, 2000);
+                location.reload(true); }, 1000);
                
             }
             else {
@@ -159,7 +159,7 @@ function collisionDetection() {
                 dy = -dy;
              	b.status = 0;
              	score += 1;
-             	// changed this from the tutorial I found(originally if the score was 15 it triggered). Now with some basic math it triggers when the score is 150, which is the max score.
+             	// triggers when max score is reached.
              	if(score == brickRowCount*brickColumnCount) {
              		winner.style.visibility = "visible";
                 setTimeout(function () {

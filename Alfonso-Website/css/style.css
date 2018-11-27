@@ -177,11 +177,7 @@ a {
     
 }
 
-#primary_nav_wrap ul li.current-menu-item
-{
-	background:#85CB33;
-    
-}
+
 
 #primary_nav_wrap ul li:hover
 {
@@ -199,6 +195,7 @@ a {
 	padding:0;
     margin: 0;
     border-radius: 5%;
+    border: solid 2px #272D2D;
 }
 
 #primary_nav_wrap ul ul li
@@ -228,8 +225,20 @@ a {
     display:inline-block;
 }
 
+/* down arrow for media link */
 
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+}
 
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
 
 
 

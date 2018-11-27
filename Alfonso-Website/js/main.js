@@ -14,6 +14,8 @@ function scrollFunction() {
       
     document.querySelector("#myname").style.marginTop = "45px";
     
+    document.querySelector("#primary_nav_wrap ul ul").style.width = "75px";
+    
       
       for( i in anchorFont ) {
         anchorFont[i].style.fontSize = "12px";
@@ -26,6 +28,7 @@ function scrollFunction() {
     document.querySelector("#primary_nav_wrap ul").style.marginTop = "37px";
     document.querySelector("#myname").style.fontSize = "35px";
     document.querySelector("#myname").style.marginTop = "70px";
+    document.querySelector("#primary_nav_wrap ul ul").style.width = "100px";
     
         for( i in anchorFont ) {
         anchorFont[i].style.fontSize = "20px";
