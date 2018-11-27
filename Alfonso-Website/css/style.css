@@ -630,8 +630,8 @@ button#restart {
     color:#85CB33;
 }
 
-.game {
-    display:block;
+#game {
+    display:none;
     width:650px;
     margin:auto;
     background-color: white;
@@ -646,13 +646,50 @@ button#restart {
     margin-bottom: 10px;
     background-color: #272D2D;
     padding: 10px;
-    margin-top: 0;
+    margin-top: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #winner {
     margin-top: 10px;
     
 }
+
+
+/*splash screen for game */
+
+#splashscreen {
+    display: block;
+    border: solid 2px #272D2D;
+    width: 650px;
+    height: 450px;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+#startbutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 5px;
+    background-color: #272D2D;
+    color: #85CB33;
+}
+
+#splashscreen h1 {
+    margin-top: 120px;
+}
+
+
+
+
 
 /* contact page */
 

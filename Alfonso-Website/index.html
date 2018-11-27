@@ -53,18 +53,22 @@
     
     
             
+        <div id="splashscreen">
+            <h1>Breakout</h1>
+            <h2 class="title">
+            <p>Destroy all the bricks to win the game!</p>
+        </h2>
+            <input id="startbutton" type="button" value="Start"/>
+        </div>
         
-        
-    <div class="game">
+    <div id="game">
         <section id="winner">
             <h1 class="title">YOU WIN, CONGRATULATIONS!</h1>
         </section>
         <section id="gameOver">
 		  <h1 class="title">Game Over Noob!</h1>
 	   </section>
-        <h2 class="title">
-            <p>Destroy all the bricks to win the game!</p>
-        </h2>
+        
         <button id="restart" onclick="reload()">Restart</button>
         <canvas id="brick" width="650" height="450"></canvas>
 
@@ -102,6 +106,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     <script src="js/brick.js"></script>
+    <script src="js/startscreen.js"></script>
        <script src="js/main.js"></script>
 </body>
     
