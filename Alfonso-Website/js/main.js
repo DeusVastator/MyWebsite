@@ -15,6 +15,8 @@ function scrollFunction() {
     document.querySelector("#myname").style.marginTop = "45px";
     
     document.querySelector("#primary_nav_wrap ul ul").style.width = "75px";
+      
+
     
       
       for( i in anchorFont ) {
