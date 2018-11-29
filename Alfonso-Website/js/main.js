@@ -123,7 +123,9 @@ function initComparisons() {
     }
     
     
-    
+   
 }
+
+ 
 
 initComparisons();
