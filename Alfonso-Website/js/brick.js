@@ -93,7 +93,7 @@ if(y + dy < ballRadius) {
             if(!lives) {
                gameOverMenu.style.visibility = "visible";
                 setTimeout(function () {
-                location.reload(true); }, 1000);
+                location.reload(true); }, 1500);
                
             }
             else {
