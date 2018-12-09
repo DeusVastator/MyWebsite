@@ -1,5 +1,8 @@
-window.onscroll = function() {scrollFunction()};
 // shrinking navgation function
+
+
+window.onscroll = function() {scrollFunction()};
+
 function scrollFunction() {
     
     var anchorFont = document.querySelectorAll(".move");
@@ -39,6 +42,11 @@ function scrollFunction() {
      
   }
 }
+
+
+
+
+
 
 // comparison slider function for webdev page
 function initComparisons() {

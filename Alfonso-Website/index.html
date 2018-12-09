@@ -58,7 +58,7 @@
             <h2>
             <p>Destroy all the bricks to win the game!</p>
         </h2>
-            <input id="startbutton" type="button" value="Start">
+            <input id="startbutton" type="button" value="Start" onclick="play()">
         </div>
         
     <div id="game">
@@ -69,7 +69,7 @@
 		  <h1 class="title">Game Over Noob!</h1>
 	   </section>
         
-        <button id="restart" onclick="reload()">Restart</button>
+        <button id="restart" onclick="window.location.reload()">Restart</button>
         <canvas  id="brick" width="650" height="450"></canvas>
 
         

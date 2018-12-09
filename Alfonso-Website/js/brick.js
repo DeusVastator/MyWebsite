@@ -1,4 +1,5 @@
-
+// below is the main function that holds the brick breaker game.
+function play() {
 // variables for the canvas and ball.
 var canvas = document.getElementById("brick");
 canvas.style.background = "#272D2D";
@@ -222,6 +223,8 @@ function displayMenu(menu) {
 
 // redraws the ball 
 draw();
+    
+}
 
 
 
